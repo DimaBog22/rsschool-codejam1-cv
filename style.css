@@ -1,0 +1,138 @@
+body {
+	background-color: #e9e8e6;
+}
+.container {
+	display: flex;
+	width: 1024px;
+	margin: 0 auto;
+	flex-direction: row;
+	align-items: flex-start;
+}
+header,footer {
+	width: 1024px;
+}
+header {
+	margin: 0 auto 30px auto;
+	text-align: center;
+	background-color: #5da4da;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding: 20px;
+}
+h1 {
+	font-size: 24px;
+	padding: 10px;
+}
+header p {
+	font-size: 18px;
+	padding: 5px;
+}
+footer {
+	margin: 30px auto 0 auto;
+}
+aside {
+	display: flex;
+	flex-basis: 20%;
+	flex-direction: column;
+	background-color: #5da4da;
+	color: #ffffff;
+	font-size: 16px;
+	margin-right: 20px;
+}
+address p {
+	margin: 20px 0 20px 10px;
+}
+.mobile-phone, .e-mail, .location {
+	margin-left: 10px;
+}
+.location {
+	text-transform: uppercase;
+}
+aside ul {
+	margin: 15px auto;
+}
+aside ul li {
+	display: inline-block;
+	font-size: 30px;
+	margin: 0 10px;
+}
+aside ul li a {
+	text-decoration: none;
+	color: white;
+}
+aside ul li a:hover {
+	opacity: 0.5;
+}
+main {
+	display: flex;
+	flex-basis: 80%;
+	flex-direction: column;
+
+}
+.education, .professional-skills {
+	border: 1px black solid;
+	color: #75716e;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border-radius: 10px;
+}
+.education p {
+	font-size: 22px;
+	margin: 20px;
+}
+.education a {
+	text-decoration: none;
+	color: #5da4da; 
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.education a:hover {
+	opacity: 0.5;
+}
+.education-span {
+	margin-left: 20px;
+	text-transform: uppercase;
+	font-size: 22px;
+}
+.education-discription {
+	color: #5da4da;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.education-years {
+	color: #138808;
+	font-size: 16px
+}
+.professional-skills {
+	margin-top: 30px;
+}
+.professional-skills p {
+	font-size: 22px;
+	margin: 20px;
+}
+.skills-span {
+	margin-left: 20px;
+	text-transform: uppercase;
+	font-size: 22px;
+}
+progress {
+	display: block;
+	margin: 20px;
+	width: 80%;
+	background-color: #138808;
+}
+.skill-name {
+	font-size: 20px;
+	color: #5da4da;
+	margin-left: 20px;
+}
+footer {
+	margin: 30px auto 0 auto;
+	text-align: center;
+	background-color: #5da4da;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding: 20px;
+	font-size: 20px;
+}
+
